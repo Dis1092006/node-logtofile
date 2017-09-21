@@ -1,9 +1,8 @@
 {
 	"name": "logtofile",
 	"description": "A simple log writer. Rotation and compression (gzip) are supported.",
-	"version": "0.1.4",
-	"author": "Sebastien Dolard <sdolard@gmail.com>",
-	"email": "sdolard@gmail.com",
+	"version": "0.1.5",
+	"author": "Sebastien Dolard <sdolard@gmail.com>, Dmitry Samsonov <dis1092006@gmail.com>",
 	"keywords": [
 		"log",
 		"writter",
@@ -11,7 +10,7 @@
 	],
 	"repository": {
 		"type": "git",
-		"url": "git://github.com/sdolard/node-logtofile.git"
+		"url": "https://github.com/Dis1092006/node-logtofile.git"
 	},
 	"main": "lib/logtofile",
 	"license": "MIT",
@@ -21,18 +20,10 @@
 	"engines": {
 		"node": ">= 0.8.0"
 	},
-	"bugs": {
-		"url": "https://github.com/sdolard/node-logtofile/issues"
-	},
-	"licenses": [
-		{
-			"type": "MIT",
-			"url": "https://raw.github.com/sdolard/node-logtofile/master/LICENSE"
-		}
-	],
+	"license": "MIT",
 	"dependencies": {
 		"vows": ">= 0.6.2"
 	},
 	"devDependencies": {},
-	"homepage": "http://github.com/sdolard/node-logtofile"
+	"homepage": "https://github.com/Dis1092006/node-logtofile"
 }
