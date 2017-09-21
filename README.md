@@ -1,9 +1,13 @@
-# node-logtofile [![Build Status](https://secure.travis-ci.org/sdolard/node-logtofile.png?branch=master)](http://travis-ci.org/sdolard/node-logtofile)
+# node-logtofile
 A simple log writer for node js. 
 Rotation and compression (gzip) are supported.
 
 
 * http://nodejs.org
+
+## About this fork
+
+This repository is a fork of [this repo](https://github.com/sdolard/node-logtofile). I decided to fork that because I needed use some additional features.
 
 ## Installation with npm 
 ### Installing npm (node package manager: http://npmjs.org/)
@@ -15,14 +19,14 @@ curl http://npmjs.org/install.sh || sh
 ### Installing logtofile
 
 ```
-[sudo] npm install [-g] logtofile
+[sudo] npm install [-g] node-logtofile
 ```
 
 
 ## Usage
 ### Basic 
 ```javascript
-var logToFile = require('logtofile');
+var logToFile = require('node-logtofile');
 
 log = logToFile.create({
 		directory: __dirname,
