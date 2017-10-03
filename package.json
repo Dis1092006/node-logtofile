@@ -1,7 +1,7 @@
 {
 	"name": "node-logtofile",
 	"description": "A simple log writer. Rotation and compression (gzip) are supported.",
-	"version": "0.1.5",
+	"version": "0.1.6",
 	"author": "Sebastien Dolard <sdolard@gmail.com>, Dmitry Samsonov <dis1092006@gmail.com>",
 	"keywords": [
 		"log",
